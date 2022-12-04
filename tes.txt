@@ -1,0 +1,20 @@
+    <div class="banner1" id="header" style="background:url(images/slide_home/pocari1.jpg);background-repeat:no-repeat;background-position:center;">
+            <h2>Pocari Sweat Run Indonesia 2022</h2>
+            <p>Hybrid - Virtual & Offline Event</p>
+    </div>
+    <div class="banner2" id="header" style="background:url(images/slide_home/pocari2.jpg);background-repeat:no-repeat;background-position:center;">
+            <h2>Pocari Sweat  History Book</h2>
+            <p>Buku Cerita Anak</p>
+    </div>
+    <div class="banner3" id="header" style="background:url(images/slide_home/pocari3.jpg);background-repeat:no-repeat;background-position:center;">
+            <h2>Pocari Sweat Ramadhan</h2>
+            <p>Ion saat sahur, jaga cairan tubuh</p>
+    </div>
+    <div class="banner4" id="header" style="background:url(images/langit.jpg);background-repeat:no-repeat;background-position:center;">
+            <h2>Pocari Sweat</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint eveniet fugiat, voluptatibus ullam, dolorum laborum, animi exercitationem veritatis repudiandae aperiam eligendi. Facilis delectus deserunt laudantium alias. Sequi non nihil animi omnis dolorem veniam commodi quidem accusamus corrupti nam quos possimus vero harum minus libero laudantium, quasi soluta modi nemo ut!</p>
+    </div>
+    <section>
+        <h2>Hello</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo reiciendis nisi quod molestiae ut quos cupiditate iste repudiandae? Unde iure sunt quas veritatis nemo impedit nihil velit autem, quod voluptates corrupti temporibus quisquam minus, quos id libero tenetur nostrum harum eligendi doloribus totam natus saepe esse itaque. Ad, doloribus? Cupiditate repellat deserunt sunt, rem placeat, officiis odit voluptas sapiente corporis, quo minima praesentium perferendis doloribus beatae consectetur accusamus? At, quo deserunt vel quisquam obcaecati explicabo blanditiis, saepe quam modi, culpa aut officiis porro optio deleniti dolores laboriosam quas neque. Animi laboriosam maiores nemo labore modi voluptate reprehenderit ea totam dicta.</p>
+</section>

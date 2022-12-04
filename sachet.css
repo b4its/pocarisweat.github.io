@@ -1,0 +1,76 @@
+.produk {
+  position: relative;
+  display: flex;
+  height: 80vh;
+  width: 100%;
+  padding: 2rem;
+  flex-direction: column;
+}
+
+.produk-head {
+  color: blue;
+  font-weight: 600;
+  font-size: 35px;
+  z-index: 1;
+}
+.produk-head2 {
+  -webkit-text-stroke: 1px blue;
+  -webkit-text-fill-color: transparent;
+  margin-left: 1.2rem;
+  font-weight: 600;
+  font-size: 25px;
+  z-index: 1;
+}
+.produk-text {
+  color: #fff;
+  padding: 1rem;
+  font-size: 18px;
+  width: 500px;
+  z-index: 1;
+}
+.produk-main {
+  position: absolute;
+  top: -2rem;
+  right: 0;
+}
+
+.main-sci {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.icon-sci li {
+  display: inline-block;
+}
+.icon-sci img {
+  display: flex;
+  margin-right: 2rem;
+  flex-direction: row;
+  height: 50px;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 767px) {
+  .produk-text {
+    color: rgb(87, 87, 255);
+  }
+  .produk-main {
+    position: absolute;
+    top: 20rem;
+    right: 0;
+  }
+  .icon-sci img {
+    display: flex;
+    margin-top: 20rem;
+  }
+}
+
+/* Stroke
+-webkit-text-stroke: 1px #fff;
+-webkit-text-fill-color: transparent; */

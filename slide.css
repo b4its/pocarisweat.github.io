@@ -1,0 +1,192 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  transform-style: preserve-3d;
+  perspective: 500px;
+  flex-direction: row;
+  gap: 25px;
+  justify-content: center;
+}
+
+.container .box,
+.box2 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: transparent;
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  overflow: hidden;
+}
+.container.box {
+  transform: rotateY(25deg);
+}
+.container .box:hover ~ .box {
+  transform: rotateY(-25deg);
+}
+.container .box:hover ~ .box2 {
+  transform: rotateY(-25deg);
+}
+.container .box:hover {
+  transform: rotateY(25deg) scale(1.25);
+  z-index: 1;
+  box-shadow: 0 25px 40px black;
+  border-radius: 16px;
+  border: 1px solid black;
+}
+.container.box2 {
+  transform: rotateY(-25deg);
+}
+.container .box2:hover ~ .box2 {
+  transform: rotateY(25deg);
+}
+.container .box2:hover {
+  transform: rotateY(-25deg) scale(1.25);
+  z-index: 1;
+  box-shadow: 0 25px 40px black;
+  border-radius: 16px;
+  border: 1px solid black;
+}
+
+.container .box .imgbx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.container .box .imgbx:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: 0.5s;
+  mix-blend-mode: multiply;
+  background: linear-gradient(180deg, grey, black);
+}
+.container .box:hover .imgbx:before {
+  opacity: 1;
+}
+.container .box .imgbx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container .box .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  padding: 20px;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+
+.container .box .content h2 {
+  color: white;
+  font-size: 15px;
+  transition: 0.5s;
+  margin-bottom: 5px;
+  transform: translateY(200px);
+}
+.container .box:hover .content h2 {
+  transform: translateY(0px);
+  transition-delay: 0.5s;
+}
+.container .box:hover .content p {
+  transform: translateY(0px);
+  transition-delay: 0.6s;
+}
+.container .box .content p {
+  color: white;
+  font-size: 11px;
+  transition: 0.5s;
+  transform: translateY(200px);
+}
+
+/* BATAS COPY  */
+.container .box2 .imgbx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.container .box2 .imgbx:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: 0.5s;
+  mix-blend-mode: multiply;
+  background: linear-gradient(180deg, grey, black);
+}
+.container .box2:hover .imgbx:before {
+  opacity: 1;
+}
+.container .box2 .imgbx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container .box2 .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  padding: 20px;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+
+.container .box2 .content h2 {
+  color: white;
+  font-size: 15px;
+  transition: 0.5s;
+  margin-bottom: 5px;
+  transform: translateY(200px);
+}
+.container .box2:hover .content h2 {
+  transform: translateY(0px);
+  transition-delay: 0.5s;
+}
+.container .box2:hover .content p {
+  transform: translateY(0px);
+  transition-delay: 0.6s;
+}
+.container .box2 .content p {
+  color: white;
+  font-size: 11px;
+  transition: 0.5s;
+  transform: translateY(200px);
+}
